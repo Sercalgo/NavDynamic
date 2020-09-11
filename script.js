@@ -7,6 +7,7 @@ const nav4 = document.getElementById('nav-4');
 const nav5 = document.getElementById('nav-5');
 const navItem = [nav1, nav2, nav3, nav4, nav5];
 
+// Control Navigation Animation
 function navAnimation(direction1, direction2) {
     navItem.forEach((nav, i) => {
         console.log(`slide-${direction1}-${i+1}`, `slide-${direction2}-${i+1}`)
